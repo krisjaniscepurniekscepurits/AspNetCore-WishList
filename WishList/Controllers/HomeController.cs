@@ -6,7 +6,7 @@ namespace WishList.Controllers
     {
         public IActionResult Index()
         {
-            return View("Index");
+            return View("~/Views/Home/Index.cshtml");
         }
 
         public IActionResult Error()
